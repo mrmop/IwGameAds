@@ -1,0 +1,36 @@
+#!/usr/bin/env mkb
+options
+{
+	module_path="$MARMALADE_ROOT/examples;../IwGameAds"
+}
+
+subprojects
+{
+	IwGameAds
+	IwGL
+}
+
+includepath
+{
+	source
+}
+
+files
+{
+	[Source]
+	(source)
+	# Game
+	Main.cpp
+	Main.h
+
+	[Data]
+	(data)
+}
+
+assets
+{
+	(data)
+
+	(data-ram/data-gles1, data)
+}
+

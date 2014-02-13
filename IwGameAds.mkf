@@ -1,0 +1,58 @@
+options
+{
+	module_path="libs"
+}
+
+packages
+{
+	libjpeg
+}
+
+subprojects
+{
+	iw2d
+	iwhttp
+	libjpeg
+	UserAgent
+}
+
+includepath
+{
+	h
+	source
+}
+
+files
+{
+	[Source]
+	(source)
+	IwGameAds.cpp
+	IwGameAdsMediator.cpp
+	IwGameAdsView.cpp
+	IwGameAdsViewAnimator.cpp
+	IwGameFile.cpp
+	IwGameHttp.cpp
+	IwGameInput.cpp
+	IwGameImage.cpp
+	IwGameSprite.cpp
+	IwGameString.cpp
+	IwGameUtil.cpp
+
+	[h]
+	(h)
+	IwGameAds.h
+	IwGameAdsMediator.h
+	IwGameAdsView.h
+	IwGameAdsViewAnimator.h
+	IwGameFile.h
+	IwGameHttp.h
+	IwGameInput.h
+	IwGameImage.h
+	IwGameSprite.h
+	IwGameString.h
+	IwGameUtil.h
+
+	[docs]
+	(docs)
+
+}
