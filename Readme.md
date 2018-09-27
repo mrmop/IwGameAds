@@ -20,7 +20,7 @@ IwGameAds currently supports the following ad providers:
 
 More will be added as they are confirmed as working.
 
-In order to use IwGameAds you will need a copy of the the Marmalade SDK which you can download from http://www.madewithmarmalade.com.
+In order to use IwGameAds you will need a copy of the Marmalade SDK which you can download from http://www.madewithmarmalade.com.
 
 IwGame is currently maintained at http://www.drmop.com/index.php/iwgameads-sdk/.
 
